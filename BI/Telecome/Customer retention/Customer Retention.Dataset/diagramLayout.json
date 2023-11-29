@@ -22,8 +22,8 @@
         },
         {
           "location": {
-            "x": 284,
-            "y": 18.5
+            "x": 374,
+            "y": 49.5
           },
           "nodeIndex": "churn - unpivot groups",
           "nodeLineageTag": "37b73c40-2983-4b59-8eb8-0f2dc3ebc8c7",
