@@ -1,0 +1,5907 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.123.742.0 (23.11)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"churn\",\"churn - unpivot groups\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "churn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "churn": {
+                      "State": "Generated",
+                      "Weight": 0.87
+                    }
+                  }
+                ]
+              },
+              "churn.PaperlessBilling_gruppen": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "PaperlessBilling (Gruppen)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "PaperlessBilling (gruppen)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PaperlessBilling": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "churn.SeniorCitizen_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "SeniorCitizen in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "SeniorCitizen in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "seniorcitizen in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "seniorcitizen in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "churn.churn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Churn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "churn": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "churn.contract": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Contract"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "contract": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "agreement": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pact": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "convention": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "treaty": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "bond": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "indenture": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "deal": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_DeviceProtection_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of DeviceProtection for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of DeviceProtection for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of deviceprotection for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of deviceprotection for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "DeviceProtection": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_MultipleLines_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of MultipleLines for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of MultipleLines for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of multipleline for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of multipleline for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "MultipleLines": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_OnlineBackup_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of OnlineBackup for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of OnlineBackup for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of onlinebackup for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of onlinebackup for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "OnlineBackup": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_OnlineSecurity_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of OnlineSecurity for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of OnlineSecurity for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of onlinesecurity for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of onlinesecurity for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "OnlineSecurity": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_PhoneService_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of PhoneService for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of PhoneService for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of phoneservice for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of phoneservice for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "PhoneService": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_StreamingMovies_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of StreamingMovies for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of StreamingMovies for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of streamingmovy for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of streamingmovy for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "StreamingMovies": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_StreamingTV_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of StreamingTV for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of StreamingTV for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of streamingtv for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of streamingtv for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "StreamingTV": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_TechSupport_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of TechSupport for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of TechSupport for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of techsupport for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of techsupport for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "TechSupport": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.count_of_churn_for_yes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Count of Churn for Yes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "count of churn for yes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number of churn for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.776
+                    }
+                  },
+                  {
+                    "amount of churn for yes": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  }
+                ]
+              },
+              "churn.customer_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "customerID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "customer ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "customerID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "customer": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "customer identification": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "customer identity": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "customer identifier": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "client": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "consumer": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "user": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "buyer": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "patron": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "purchaser": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "shopper": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "churn.dependent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Dependents"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dependent": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "churn.dependents_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Dependents in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dependents in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dependent in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "dependent in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "child in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "ward in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "charge in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "churn.device_protection": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "DeviceProtection"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "device protection": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DeviceProtection": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "protection": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "device fortification": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "device security": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fortification": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "device defense": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "device guard": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "device shield": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "device safety": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "device shelter": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "device safeguard": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "device armor": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "churn.device_protection_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Device protection in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "device protection in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "protection": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "device protection in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "device protection in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "device fortification in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "device security in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "device fortification": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "device security": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "device defense in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "device guard in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "device shield in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "device safety in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "Device protection": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.gender": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "gender"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "gender": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sexuality": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "sex": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "churn.internet_service": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "InternetService"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "internet service": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "InternetService": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "service": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "internet maintenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "internet examination": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "internet svc": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "maintenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "examination": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "svc": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "internet package": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "internet repair": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "internet benefit": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "internet servicing": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "churn.monthly_charge": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "MonthlyCharges"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "monthly charge": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MonthlyCharges": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "charge": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "monthly custody": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "monthly responsibility": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "monthly duty": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "custody": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "responsibility": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "duty": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "monthly care": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "monthly control": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "monthly trust": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "monthly burden": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "churn.multiple_line": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "MultipleLines"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "multiple line": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MultipleLines": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "multiple streak": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "multiple stroke": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "multiple stripe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "multiple contour": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "multiple mark": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "multiple connection": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "multiple link": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "multiple route": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "multiple track": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "multiple course": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "churn.multiple_lines_no_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Multiple lines no in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "multiple lines no in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "multiple line number in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.757
+                    }
+                  },
+                  {
+                    "multiple line no in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "multiple line no in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "no": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.multiple_lines_yes_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Multiple Lines yes in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "multiple lines yes in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "multiple line yes in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "multiple line yes in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "multiple line aye in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.479
+                    }
+                  },
+                  {
+                    "multiple line yea in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.479
+                    }
+                  },
+                  {
+                    "multiple line right in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.479
+                    }
+                  },
+                  {
+                    "multiple line okay in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.455
+                    }
+                  },
+                  {
+                    "aye": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "yea": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "yes": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.num_admin_ticket": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "numAdminTickets"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "num admin ticket": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "numAdminTickets": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "number admin ticket": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "num admin coupon": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "num admin permit": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "num admin voucher": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "num admin receipt": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "num admin marker": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "num admin sticker": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "num admin label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "num admin tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "num admin tab": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  }
+                ]
+              },
+              "churn.num_tech_ticket": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "numTechTickets"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "num tech ticket": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "numTechTickets": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "number tech ticket": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "num tech coupon": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "num tech permit": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "num tech voucher": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "num tech receipt": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "num tech marker": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "num tech sticker": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "num tech label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "num tech tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "num tech tab": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  }
+                ]
+              },
+              "churn.online_backup": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "OnlineBackup"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "online backup": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "OnlineBackup": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "backup": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "online holdup": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "online stoppage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "online tailback": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "holdup": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "stoppage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "tailback": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "online gridlock": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online snarl": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online tie-up": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "gridlock": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "churn.online_bacup_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Online Bacup in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "online bacup in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Backup": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "online bacup in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "online bacup in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "online holdup": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "online stoppage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "online tailback": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "holdup": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "stoppage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "tailback": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "online gridlock": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online snarl": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "Online Backup": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.online_sec__in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Online Sec. in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "online sec. in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Security": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "online sec. in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  },
+                  {
+                    "online sec. in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.605
+                    }
+                  },
+                  {
+                    "online sanctuary": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "sanctuary": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "online safety": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online refuge": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online haven": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online safekeeping": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online retreat": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "safety": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "Online Security": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.online_security": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "OnlineSecurity"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "online security": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "OnlineSecurity": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "security": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "online sanctuary": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "sanctuary": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "online safety": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online refuge": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online haven": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online safekeeping": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "online retreat": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "safety": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "refuge": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "haven": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "churn.paperless_billing": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "PaperlessBilling"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "paperless billing": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PaperlessBilling": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "billing": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "churn.partner": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Partner"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "partner": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "wife": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "lover": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "spouse": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "companion": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "husband": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "mate": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "colleague": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "cohort": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "collaborator": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "coworker": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "churn.partner_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Partner in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "partner in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "partner in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "partner in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "wife in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "lover in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "spouse in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "companion in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "husband in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "mate in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "colleague in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "cohort in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "churn.payment_method": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "PaymentMethod"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "payment method": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PaymentMethod": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "method": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "payment technique": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "payment system": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "payment manner": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "payment mode": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "technique": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "system": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "manner": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "mode": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "payment way": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "payment process": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "churn.phone_service": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "PhoneService"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "phone service": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PhoneService": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "service": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "phone maintenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "phone examination": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "phone svc": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "maintenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "examination": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "svc": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "phone package": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "phone repair": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "phone benefit": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "phone servicing": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "churn.phone_service_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Phone Service in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "phone service in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "phone maintenance in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "phone examination in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "phone svc in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "phone package in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "phone repair in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "phone benefit in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "phone servicing in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "phone service in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "phone service in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "Phone Service": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.senior_citizen": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "SeniorCitizen"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "senior citizen": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "SeniorCitizen": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "citizen": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "senior inhabitant": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "senior voter": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "inhabitant": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "voter": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "senior resident": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "senior national": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "senior native": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "senior civilian": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "resident": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "national": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "churn.streaming_TV": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "StreamingTV"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "streaming TV": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "StreamingTV": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "TV": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "churn.streaming_TV_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Streaming TV in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "streaming TV in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TV": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "streaming tv in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "streaming tv in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "Streaming TV": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.streaming_movie": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "StreamingMovies"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "streaming movie": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "StreamingMovies": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "movie": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "streaming show": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "streaming flick": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "streaming picture": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "streaming film": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "flick": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "picture": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "film": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "churn.streaming_movies_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Streaming Movies in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "streaming movies in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Movies": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "streaming movie in percentage": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "streaming movie in pct": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "streaming cinema in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "streaming cinema": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "streaming picture in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "streaming flick in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "cinema": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "streaming picture": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "streaming flick": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "picture": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "Streaming Movies": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.tech_support": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "TechSupport"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tech support": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TechSupport": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "support": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "tech assistance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tech cooperation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tech maintenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tech sustenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tech validation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tech verification": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "assistance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "cooperation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "maintenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "sustenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "churn.tech_support_in_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "Tech Support in %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tech support in %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Support": {
+                      "State": "Suggested",
+                      "Weight": 0.873
+                    }
+                  },
+                  {
+                    "tech assistance in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "tech cooperation in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "tech maintenance in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "tech sustenance in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "tech validation in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "tech verification in %": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "tech assistance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tech cooperation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tech maintenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tech sustenance": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "Tech Support": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "churn.tenure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "tenure"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tenure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tenancy": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "occupancy": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "occupation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "freehold": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "lease": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "duration": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "term": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "span": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "period": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "stretch": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "churn.total_charge": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "churn",
+                    "ConceptualProperty": "TotalCharges"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total charge": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TotalCharges": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "charge": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "aggregate charge": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall charge": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "total custody": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total responsibility": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total duty": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "custody": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "responsibility": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "duty": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "total care": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "total control": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "churn_has_PaperlessBilling_gruppen": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.PaperlessBilling_gruppen"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.PaperlessBilling_gruppen": {
+                    "Target": {
+                      "Entity": "churn.PaperlessBilling_gruppen"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_SeniorCitizen_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.SeniorCitizen_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.SeniorCitizen_in_": {
+                    "Target": {
+                      "Entity": "churn.SeniorCitizen_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_churn": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.churn"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.churn": {
+                    "Target": {
+                      "Entity": "churn.churn"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_contract": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.contract"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.contract": {
+                    "Target": {
+                      "Entity": "churn.contract"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_DeviceProtection_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_DeviceProtection_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_DeviceProtection_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_DeviceProtection_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_MultipleLines_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_MultipleLines_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_MultipleLines_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_MultipleLines_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_OnlineBackup_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_OnlineBackup_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_OnlineBackup_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_OnlineBackup_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_OnlineSecurity_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_OnlineSecurity_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_OnlineSecurity_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_OnlineSecurity_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_PhoneService_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_PhoneService_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_PhoneService_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_PhoneService_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_StreamingMovies_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_StreamingMovies_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_StreamingMovies_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_StreamingMovies_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_StreamingTV_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_StreamingTV_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_StreamingTV_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_StreamingTV_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_TechSupport_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_TechSupport_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_TechSupport_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_TechSupport_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_count_of_churn_for_yes": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.count_of_churn_for_yes"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.count_of_churn_for_yes": {
+                    "Target": {
+                      "Entity": "churn.count_of_churn_for_yes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_customer_ID": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.customer_ID"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.customer_ID": {
+                    "Target": {
+                      "Entity": "churn.customer_ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_dependent": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.dependent"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.dependent": {
+                    "Target": {
+                      "Entity": "churn.dependent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_dependents_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.dependents_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.dependents_in_": {
+                    "Target": {
+                      "Entity": "churn.dependents_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_device_protection": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.device_protection"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.device_protection": {
+                    "Target": {
+                      "Entity": "churn.device_protection"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_device_protection_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.device_protection_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.device_protection_in_": {
+                    "Target": {
+                      "Entity": "churn.device_protection_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_gender": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.gender"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.gender": {
+                    "Target": {
+                      "Entity": "churn.gender"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_internet_service": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.internet_service"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.internet_service": {
+                    "Target": {
+                      "Entity": "churn.internet_service"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_multiple_line": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.multiple_line"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.multiple_line": {
+                    "Target": {
+                      "Entity": "churn.multiple_line"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_multiple_lines_no_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.multiple_lines_no_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.multiple_lines_no_in_": {
+                    "Target": {
+                      "Entity": "churn.multiple_lines_no_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_multiple_lines_yes_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.multiple_lines_yes_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.multiple_lines_yes_in_": {
+                    "Target": {
+                      "Entity": "churn.multiple_lines_yes_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_num_admin_ticket": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.num_admin_ticket"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.num_admin_ticket": {
+                    "Target": {
+                      "Entity": "churn.num_admin_ticket"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_num_tech_ticket": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.num_tech_ticket"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.num_tech_ticket": {
+                    "Target": {
+                      "Entity": "churn.num_tech_ticket"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_online_backup": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.online_backup"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.online_backup": {
+                    "Target": {
+                      "Entity": "churn.online_backup"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_online_bacup_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.online_bacup_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.online_bacup_in_": {
+                    "Target": {
+                      "Entity": "churn.online_bacup_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_online_sec__in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.online_sec__in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.online_sec__in_": {
+                    "Target": {
+                      "Entity": "churn.online_sec__in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_online_security": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.online_security"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.online_security": {
+                    "Target": {
+                      "Entity": "churn.online_security"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_paperless_billing": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.paperless_billing"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.paperless_billing": {
+                    "Target": {
+                      "Entity": "churn.paperless_billing"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_partner": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.partner"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.partner": {
+                    "Target": {
+                      "Entity": "churn.partner"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_partner_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.partner_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.partner_in_": {
+                    "Target": {
+                      "Entity": "churn.partner_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_payment_method": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.payment_method"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.payment_method": {
+                    "Target": {
+                      "Entity": "churn.payment_method"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_phone_service": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.phone_service"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.phone_service": {
+                    "Target": {
+                      "Entity": "churn.phone_service"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_phone_service_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.phone_service_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.phone_service_in_": {
+                    "Target": {
+                      "Entity": "churn.phone_service_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_risk_category": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.risk_category"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.risk_category": {
+                    "Target": {
+                      "Entity": "churn.risk_category"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_senior_citizen": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.senior_citizen"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.senior_citizen": {
+                    "Target": {
+                      "Entity": "churn.senior_citizen"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_streaming_TV": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.streaming_TV"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.streaming_TV": {
+                    "Target": {
+                      "Entity": "churn.streaming_TV"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_streaming_TV_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.streaming_TV_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.streaming_TV_in_": {
+                    "Target": {
+                      "Entity": "churn.streaming_TV_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_streaming_movie": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.streaming_movie"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.streaming_movie": {
+                    "Target": {
+                      "Entity": "churn.streaming_movie"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_streaming_movies_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.streaming_movies_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.streaming_movies_in_": {
+                    "Target": {
+                      "Entity": "churn.streaming_movies_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_tech_support": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.tech_support"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.tech_support": {
+                    "Target": {
+                      "Entity": "churn.tech_support"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_tech_support_in_": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.tech_support_in_"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.tech_support_in_": {
+                    "Target": {
+                      "Entity": "churn.tech_support_in_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_tenure": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.tenure"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.tenure": {
+                    "Target": {
+                      "Entity": "churn.tenure"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_has_type": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.type"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.type": {
+                    "Target": {
+                      "Entity": "churn.type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_is_expensive": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {}
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {}
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "churn.monthly_charge"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.monthly_charge"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.monthly_charge": {
+                    "Target": {
+                      "Entity": "churn.monthly_charge"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "churn_is_expensive1": {
+                "Binding": {
+                  "ConceptualEntity": "churn"
+                },
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {}
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {}
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "churn.total_charge"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "churn.total_charge"
+                      },
+                      "Subject": {
+                        "Role": "churn"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "churn": {
+                    "Target": {
+                      "Entity": "churn"
+                    }
+                  },
+                  "churn.total_charge": {
+                    "Target": {
+                      "Entity": "churn.total_charge"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "6ad6142f-5074-4c11-abbe-71f62baf3097",
+        "fromColumn": "customerID",
+        "fromTable": "churn - unpivot groups",
+        "toColumn": "customerID",
+        "toTable": "churn"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "churn",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "customerID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "be396566-8e30-460d-bc48-88488f850596",
+            "sourceColumn": "customerID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8f854483-4214-42c6-a735-516670d51e52",
+            "sourceColumn": "gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SeniorCitizen",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3e4e5c3a-7609-4daf-9d39-a6f062f0e7f9",
+            "sourceColumn": "SeniorCitizen",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Partner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9493de35-6736-4db2-932c-a4c0aa8e7fea",
+            "sourceColumn": "Partner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Dependents",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f31c843d-9b52-477f-9b3c-c542069f5357",
+            "sourceColumn": "Dependents",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tenure",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "42de421a-98f9-49a0-a36e-ac35b180b40f",
+            "sourceColumn": "tenure",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PhoneService",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e763f2b9-2e2d-4f7f-84ab-013f9afec155",
+            "sourceColumn": "PhoneService",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MultipleLines",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e5c379c1-0a9d-4248-8633-456639df854a",
+            "sourceColumn": "MultipleLines",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "InternetService",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2de556fd-c08c-4559-b698-55c93b041464",
+            "sourceColumn": "InternetService",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OnlineSecurity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f1f93c6e-4497-49e4-a62d-a1a6d94549ec",
+            "sourceColumn": "OnlineSecurity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "OnlineBackup",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "56c78549-daf7-4097-8abb-b02fa55d3059",
+            "sourceColumn": "OnlineBackup",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DeviceProtection",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "54cc6931-58f8-44c5-9467-58420ed92041",
+            "sourceColumn": "DeviceProtection",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TechSupport",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "afb62e72-8643-40dd-99ca-296a6cffe360",
+            "sourceColumn": "TechSupport",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StreamingTV",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9e010c64-dfe9-4fda-b2c6-40e695dd3645",
+            "sourceColumn": "StreamingTV",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StreamingMovies",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "33b2f26a-5af9-4e62-883b-bc462d6ba52a",
+            "sourceColumn": "StreamingMovies",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Contract",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "08e80cfa-8287-4d4b-ab32-4c6be8318f95",
+            "sourceColumn": "Contract",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PaperlessBilling",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"churn\",\"TableItemName\":\"PaperlessBilling (Gruppen)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "141beeb8-2ee1-43df-b0b6-663886b119fe",
+            "sourceColumn": "PaperlessBilling",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PaymentMethod",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bb4dde8a-e886-4361-813f-9ec3060bc92d",
+            "sourceColumn": "PaymentMethod",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthlyCharges",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "31d0f90e-e8bd-4255-964b-5dd3cf7da25d",
+            "sourceColumn": "MonthlyCharges",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TotalCharges",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+            "lineageTag": "210814c8-9edd-4a01-b58a-44c5c6789dac",
+            "sourceColumn": "TotalCharges",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "numAdminTickets",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "70c6c1b6-2a9f-45f4-9985-7c12c56a6c3c",
+            "sourceColumn": "numAdminTickets",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "numTechTickets",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3f820949-0300-4e08-8038-e8ff2b58bd4e",
+            "sourceColumn": "numTechTickets",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Churn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "19bc159f-bfb4-460d-805a-0cae519a1293",
+            "sourceColumn": "Churn",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PaperlessBilling (Gruppen)",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"c\",\"Entity\":\"churn\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"PaperlessBilling\"}}],\"GroupItems\":[{\"DisplayName\":\"(Leer)\",\"BlankDefaultPlaceholder\":true},{\"DisplayName\":\"Yes\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"PaperlessBilling\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Yes'\"}}]]}}},{\"DisplayName\":\"Sonstige\"}]}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "  TRUE,",
+              "  ISBLANK('churn'[PaperlessBilling]),",
+              "  \"(Leer)\",",
+              "  'churn'[PaperlessBilling] IN {\"Yes\"},",
+              "  \"Yes\",",
+              "  \"Sonstige\"",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "churn"
+                          }
+                        },
+                        "Property": "PaperlessBilling"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "334e94fb-c986-4538-9cac-a321a18ee197",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Loyalty",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "adc3c4ef-f5a2-41d6-b341-a389dba2710d",
+            "sourceColumn": "Loyalty",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "3f141df4-a35c-4907-a792-bf0da62cafff",
+        "measures": [
+          {
+            "name": "Count of Churn for Yes",
+            "expression": [
+              "",
+              "CALCULATE(COUNTA('churn'[Churn]), 'churn'[Churn] IN { \"Yes\" })"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "8c28c41c-4977-449d-a93b-5dfac5fcf1fa"
+          },
+          {
+            "name": "Count of MultipleLines for Yes",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "\tCOUNTA('churn'[MultipleLines]),",
+              "\t'churn'[MultipleLines] IN { \"Yes\" }",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "55b7a704-4617-4952-9851-eedbdb7155ee"
+          },
+          {
+            "name": "Count of PhoneService for Yes",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "\tCOUNTA('churn'[PhoneService]),",
+              "\t'churn'[PhoneService] IN { \"Yes\" }",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "9416ecaa-08d4-4e30-bb3d-360972b6bb2c"
+          },
+          {
+            "name": "Count of OnlineSecurity for Yes",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "\tCOUNTA('churn'[OnlineSecurity]),",
+              "\t'churn'[OnlineSecurity] IN { \"Yes\" }",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "6ace44de-e6a2-4a94-bfa0-8e09798d9d3a"
+          },
+          {
+            "name": "Count of OnlineBackup for Yes",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "\tCOUNTA('churn'[OnlineBackup]),",
+              "\t'churn'[OnlineBackup] IN { \"Yes\" }",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "8292889f-bb9e-47b2-b5c6-a55bb55eddff"
+          },
+          {
+            "name": "Count of DeviceProtection for Yes",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "\tCOUNTA('churn'[DeviceProtection]),",
+              "\t'churn'[DeviceProtection] IN { \"Yes\" }",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "d23d0a8a-d2b8-422d-af68-a929866693d2"
+          },
+          {
+            "name": "Count of TechSupport for Yes",
+            "expression": [
+              "",
+              "CALCULATE(COUNTA('churn'[TechSupport]), 'churn'[TechSupport] IN { \"Yes\" })"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "d839666e-f435-4915-ab1f-137137206d78"
+          },
+          {
+            "name": "Count of StreamingMovies for Yes",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "\tCOUNTA('churn'[StreamingMovies]),",
+              "\t'churn'[StreamingMovies] IN { \"Yes\" }",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "9b49a6e7-29e0-4319-af95-ea0967e6c427"
+          },
+          {
+            "name": "Count of StreamingTV for Yes",
+            "expression": [
+              "",
+              "CALCULATE(COUNTA('churn'[StreamingTV]), 'churn'[StreamingTV] IN { \"Yes\" })"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "FilteredMeasure",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "5ac88fb3-d4dd-4ddd-a8b8-210ada4297c0"
+          },
+          {
+            "name": "SeniorCitizen in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[SeniorCitizen]), churn[SeniorCitizen]=1, churn[Churn]= \"Yes\"), CALCULATE(COUNT(churn[SeniorCitizen]), churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "171c1071-633d-40fa-9dff-84c9641833c3"
+          },
+          {
+            "name": "Partner in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[Partner]), churn[Partner]=\"Yes\", churn[Churn]= \"Yes\"), CALCULATE(COUNT(churn[Partner]), churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "5fcc8a63-4a1b-4619-a457-be1660a80072"
+          },
+          {
+            "name": "Dependents in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[Dependents]), churn[Dependents]=\"Yes\", churn[Churn]= \"Yes\"), CALCULATE(COUNT(churn[Dependents]), churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "1f7155e9-f45c-4ef6-b28d-5cee890846e3"
+          },
+          {
+            "name": "Multiple Lines yes in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[MultipleLines]), churn[MultipleLines]=\"Yes\", churn[Churn]= \"Yes\"), CALCULATE(COUNT(churn[MultipleLines]), churn[Churn]=\"Yes\", churn[MultipleLines] <> \"No phone service\"),0)",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "5f781b43-7eb1-4f31-957c-9315d5e07ed1"
+          },
+          {
+            "name": "Multiple lines no in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[MultipleLines]), churn[MultipleLines]=\"No\", churn[Churn]=\"Yes\"),CALCULATE(COUNT(churn[MultipleLines]),churn[Churn]=\"Yes\", churn[MultipleLines] <> \"No phone service\"),0)",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "837aa1ab-bc6a-48b6-b3ba-65573bd096a9"
+          },
+          {
+            "name": "Online Sec. in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[OnlineSecurity]), churn[OnlineSecurity]=\"Yes\", churn[Churn]=\"Yes\"),CALCULATE(COUNT(churn[OnlineSecurity]),churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "867ea71a-f340-481b-9ca9-63f5ba4ddadd"
+          },
+          {
+            "name": "Online Bacup in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[OnlineBackup]), churn[OnlineBackup]=\"Yes\", churn[Churn]=\"Yes\"),CALCULATE(COUNT(churn[OnlineBackup]),churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "75c9350f-6247-4511-9efe-1dac509c5c73"
+          },
+          {
+            "name": "Streaming TV in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[StreamingTV]), churn[StreamingTV]=\"Yes\", churn[Churn]=\"Yes\"),CALCULATE(COUNT(churn[StreamingTV]),churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "9b03a435-dc22-49c4-8242-4918d007f5e6"
+          },
+          {
+            "name": "Streaming Movies in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[StreamingMovies]), churn[StreamingMovies]=\"Yes\", churn[Churn]=\"Yes\"),CALCULATE(COUNT(churn[StreamingMovies]),churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "79081de8-4f02-4d00-b290-1fcd8a51a0cf"
+          },
+          {
+            "name": "Device protection in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[DeviceProtection]), churn[DeviceProtection]=\"Yes\", churn[Churn]=\"Yes\"),CALCULATE(COUNT(churn[DeviceProtection]),churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "3ed8fd03-66e4-4f9c-98f0-fe3c19c7046e"
+          },
+          {
+            "name": "Tech Support in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[TechSupport]), churn[TechSupport]=\"Yes\", churn[Churn]=\"Yes\"),CALCULATE(COUNT(churn[TechSupport]),churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "bfc8f7b7-20b8-4c33-a25c-9ab9e84574dd"
+          },
+          {
+            "name": "Phone Service in %",
+            "expression": "DIVIDE(CALCULATE(COUNT(churn[PhoneService]), churn[PhoneService]=\"Yes\", churn[Churn]=\"Yes\"),CALCULATE(COUNT(churn[PhoneService]),churn[Churn]=\"Yes\"),0)",
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "ad9c99bc-2297-4211-b317-baedf3faa9f5"
+          },
+          {
+            "name": "churn rate %",
+            "expression": [
+              "DIVIDE (CALCULATE(COUNT(churn[Churn]), churn[Churn] = \"yes\" ),CALCULATE ( COUNT (churn[Churn]), ALLSELECTED (churn[Churn] ) )",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "1071d857-c74d-435e-babf-0af80ba985c6"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "churn-62bfc29c-c8e4-4672-9633-e854d0fa9a51",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\GDIC\\Documents\\BSc BA - Int. Mgmt\\Semester 6\\Business Interlligence\\BI Assignment\\churn.csv\"),[Delimiter=\",\", Columns=23, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"customerID\", type text}, {\"gender\", type text}, {\"SeniorCitizen\", Int64.Type}, {\"Partner\", type text}, {\"Dependents\", type text}, {\"tenure\", Int64.Type}, {\"PhoneService\", type text}, {\"MultipleLines\", type text}, {\"InternetService\", type text}, {\"OnlineSecurity\", type text}, {\"OnlineBackup\", type text}, {\"DeviceProtection\", type text}, {\"TechSupport\", type text}, {\"StreamingTV\", type text}, {\"StreamingMovies\", type text}, {\"Contract\", type text}, {\"PaperlessBilling\", type text}, {\"PaymentMethod\", type text}, {\"MonthlyCharges\", type number}, {\"TotalCharges\", type number}, {\"numAdminTickets\", Int64.Type}, {\"numTechTickets\", Int64.Type}, {\"Churn\", type text}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Changed Type\", \"Risk category\", each if [tenure] < 24 then \"Risk 1\" else if [tenure] < 48 then \"Risk 2\" else \"Risk 3\"),",
+                "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Added Conditional Column\", \"Loyalty\", each if [tenure] < 12 then \"< 1 year\" else if [tenure] < 24 then \"< 2 years\" else if [tenure] < 36 then \"< 3 years\" else if [tenure] < 48 then \"< 4 years\" else if [tenure] < 60 then \"< 5 years\" else \"< 6 years\"),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Added Conditional Column1\",{\"Risk category\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_d9b7efed-fa11-4557-bae3-304004ebf6d4",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "3a0078b9-97d9-449c-9754-85d176541437",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "6c8d42b2-daa3-40e7-b4fb-ec2f0b2e2384",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "334d49bb-4be4-4065-9c9b-d045b4f9a92a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "8705713c-718a-4e22-9eaf-e876ae11a402",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "ae53679e-3c88-4a76-9aa1-e0b5112cf818",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "07b7ba5e-3e0c-4845-a527-47274e6ca9e8",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "7639a0f6-1906-4dd7-be8d-fb93e4618d08",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "df04442e-b51e-4083-8deb-8b9cc0dd7b85",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "8dfc3b77-0518-473a-825e-ea400a9ab7c8",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "704c4f46-e864-492f-a22b-d3c2a97d47ab",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "3ae5eef9-d886-4447-97bf-311ec84aad0f",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "da3f3d4d-90d5-4212-bcb2-d613e6d2086d"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "550fed3c-49a3-4e0f-856f-a75b128beac8",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_d9b7efed-fa11-4557-bae3-304004ebf6d4-9991c143-eaa8-42f6-9549-832acbf7051e",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "churn - unpivot groups",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "customerID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7e7a9c8a-dee5-4a66-8867-830a42f1d285",
+            "sourceColumn": "customerID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "433ff1a1-c3c2-4595-b686-19fc3b4360c9",
+            "sourceColumn": "gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SeniorCitizen",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c886f49f-ddb3-4e65-b7f1-c0606ddd021c",
+            "sourceColumn": "SeniorCitizen",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Partner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "62e9e4b0-5277-401e-a6bb-bfeccca7e097",
+            "sourceColumn": "Partner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Dependents",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0231ac1c-a418-49e2-9eba-c3791ea4ec08",
+            "sourceColumn": "Dependents",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tenure",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "053936d7-f843-433d-92cf-aa4d2d612fe8",
+            "sourceColumn": "tenure",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Contract",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f49d5a4e-e906-4367-8a62-f3b70779485a",
+            "sourceColumn": "Contract",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PaperlessBilling",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "603ede44-a950-4974-89a4-38e05d337d35",
+            "sourceColumn": "PaperlessBilling",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PaymentMethod",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2f74021f-1faf-44d4-be71-c551a31b3c6e",
+            "sourceColumn": "PaymentMethod",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthlyCharges",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "622b8b7f-8e2f-41f8-a44f-6763e77f5d0d",
+            "sourceColumn": "MonthlyCharges",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TotalCharges",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "63fe34aa-c10a-42d9-a13a-55307da6e265",
+            "sourceColumn": "TotalCharges",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "numAdminTickets",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "261cae74-52b0-495e-afcd-0ab99c3158c1",
+            "sourceColumn": "numAdminTickets",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "numTechTickets",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7305b6cd-6ec5-429b-b840-1c792b30bbd5",
+            "sourceColumn": "numTechTickets",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Churn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "29f8daa8-aa19-4c33-9842-309f2df172ca",
+            "sourceColumn": "Churn",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Risk category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "658bafaf-8723-4388-a19b-b45d80b6acee",
+            "sourceColumn": "Risk category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Loyalty",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a7c2d4a5-113a-4f00-9272-3a52b4c71a23",
+            "sourceColumn": "Loyalty",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Attribute",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0d1c996b-66dd-4b22-8ec6-c575923001e1",
+            "sourceColumn": "Attribute",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8b015d4a-6351-4fc4-a3ad-6091fa6cb79a",
+            "sourceColumn": "Value",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "37b73c40-2983-4b59-8eb8-0f2dc3ebc8c7",
+        "partitions": [
+          {
+            "name": "churn - unpivot groups-74e8f43e-10ae-4f79-8341-26933b43ce72",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\GDIC\\Documents\\BSc BA - Int. Mgmt\\Semester 6\\Business Interlligence\\BI Assignment\\churn.csv\"),[Delimiter=\",\", Columns=23, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"customerID\", type text}, {\"gender\", type text}, {\"SeniorCitizen\", Int64.Type}, {\"Partner\", type text}, {\"Dependents\", type text}, {\"tenure\", Int64.Type}, {\"PhoneService\", type text}, {\"MultipleLines\", type text}, {\"InternetService\", type text}, {\"OnlineSecurity\", type text}, {\"OnlineBackup\", type text}, {\"DeviceProtection\", type text}, {\"TechSupport\", type text}, {\"StreamingTV\", type text}, {\"StreamingMovies\", type text}, {\"Contract\", type text}, {\"PaperlessBilling\", type text}, {\"PaymentMethod\", type text}, {\"MonthlyCharges\", type number}, {\"TotalCharges\", type number}, {\"numAdminTickets\", Int64.Type}, {\"numTechTickets\", Int64.Type}, {\"Churn\", type text}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Changed Type\", \"Risk category\", each if [tenure] < 24 then \"Risk 1\" else if [tenure] < 48 then \"Risk 2\" else \"Risk 3\"),",
+                "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Added Conditional Column\", \"Loyalty\", each if [tenure] < 6 then \"< 6 months\" else if [tenure] < 12 then \"< 12 months\" else if [tenure] < 18 then \"< 18 months\" else if [tenure] < 24 then \"< 2 years\" else if [tenure] < 36 then \"< 3 years\" else if [tenure] < 48 then \"< 4 years\" else \"4 years +\"),",
+                "    #\"Unpivoted Columns\" = Table.UnpivotOtherColumns(#\"Added Conditional Column1\", {\"customerID\", \"gender\", \"SeniorCitizen\", \"Partner\", \"Dependents\", \"tenure\", \"Contract\", \"PaperlessBilling\", \"PaymentMethod\", \"MonthlyCharges\", \"TotalCharges\", \"numAdminTickets\", \"numTechTickets\", \"Churn\", \"Risk category\", \"Loyalty\"}, \"Attribute\", \"Value\")",
+                "in",
+                "    #\"Unpivoted Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
