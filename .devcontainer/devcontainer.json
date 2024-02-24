@@ -1,5 +1,8 @@
 {
     "build":{
         "dockerfile": "python-env"
-    }
+    },
+    "features": {
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-gh-copilot-cli:0": {}
+}
 }
