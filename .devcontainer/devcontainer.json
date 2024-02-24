@@ -3,5 +3,12 @@
   "features": {
     "ghcr.io/devcontainers/features/python:1": {},
     "ghcr.io/cirolosapio/devcontainers-features/alpine-gh-copilot-cli:0": {}
+  },
+  "build": {
+    "dockerfile": "python-env",
+    "args": { },
+    "features": {
+      "ghcr.io/cirolosapio/devcontainers-features/alpine-gh-copilot-cli:0": {}
+    }
   }
 }
